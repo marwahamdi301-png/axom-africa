@@ -1,3 +1,24 @@
-.vercel
+# Dependencies
+node_modules/
 
-/lib/generated/prisma
+# Build outputs
+.next/
+out/
+dist/
+
+# Environment
+.env
+.env.local
+
+# Backup folders (مهم جداً)
+_backup/
+backup/
+
+# Prisma
+prisma/migrations/
+
+# Logs
+*.log
+
+# OS
+.DS_Store
